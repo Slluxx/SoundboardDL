@@ -47,3 +47,4 @@ else:
     print("Please enter a URL to a soundboard.com page. EG: https://www.soundboard.com/sb/starwars\n")
     url = urlparse(input("URL: "))
     process(url)
+    input("Done. Press a key to exit...")
